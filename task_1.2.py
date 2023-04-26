@@ -6,10 +6,6 @@
 # Выведите общее время звучания трех случайных песен в формате
 # Три песни звучат ХХХ минут
 
-import random
-
-k = 3
-
 my_favorite_songs = [
     ['Waste a Moment', 3.03],
     ['New Salvation', 4.02],
@@ -22,19 +18,7 @@ my_favorite_songs = [
     ['In This World', 4.02],
     ]
 
-total = 0
-
-while k != 0:
-    x = random.randint(1,9)
-    k -= 1
-    y.append(x)
-    print(my_favorite_songs)
-
-for i in my_favorite_songs:
-    print(i)
-    total += i
-
-print ("Три песни звучат",total,"минут")
+len(my_favorite_songs)
 
 # Пункт B. 
 # Есть словарь песен 
